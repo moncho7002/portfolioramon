@@ -66,11 +66,16 @@ main {
 }
 
 .projects, .experience, .education {
-    background-color: white;
+    background-color: lightgray;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border: 3px solid black;
+    
+}
+.projects :hover, .experience :hover, .education :hover{
+    background-color: black ;
+    color: white;
 }
 
 .projects ul, .education ul {
